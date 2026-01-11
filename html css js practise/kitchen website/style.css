@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+
+}
+
+.nav{
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto ;
+    
+
+}
+
+
+.logo_container{
+    background-image: url('logo.jpg');
+background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+
+
